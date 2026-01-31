@@ -11,5 +11,5 @@ exports.analytics = async (req, res) => {
         owners: owners.count,
         vehicles: vehicles.count,
         trips: trips.count  
-    });
-    };
+    });     
+};
